@@ -1,0 +1,196 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.inner {
+    height: 767px;
+    background: url("img/innerBG.jpg") center no-repeat;
+    background-size: cover;
+    padding: 68px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.navLink {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 47px;
+}
+
+.navLink:first-child {
+    margin-left: 0;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.innerContent {
+    margin-top: 150px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+
+
+.innerText {
+    display: block;
+    width: 445px;
+}
+
+.innerTitle {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.innerSubtitle {
+    color: #404040;
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+.innerButton {
+    width: 300px;
+    height: 64px;
+    text-transform: uppercase;
+    background-color: #00b770;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.innerButton:hover {
+    background-color: #00a666;
+    cursor: pointer;
+}
+
+.innerAdventages {
+    background-color: #efefef;
+    height: 285px;
+    width: 100%;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.advantageImg {
+    margin-top: -35px;
+}
+
+.advantageTitle {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+.advantageSubtitle {
+    color: #404040;
+    font-size: 18px;
+}
+
+.reviews {
+    padding-top: 100px;
+    height: 415px;
+}
+
+.reviewsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.reviewsTitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.reviewsShowAll {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.reviewsDots {
+    align-self: center;
+}
+
+.reviewsShowAll:hover {
+    cursor: pointer;
+    color: #00a666;
+}
+
+.review {
+    display: grid;
+    grid-template-columns: 300px 40px 600px 40px;
+}
+
+.userContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userName {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    width: 115px;
+}
+
+.userEducation {
+    display: block;
+    color: #404040;
+    font-size: 16px;
+}
+
+.reviewTextTitle {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.reviewTextSubtitle {
+    color: #404040;
+    font-size: 16px;
+}
+
+.quotesClose {
+    align-self: end;
+}
